@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Martillo",
+        "stock": 50,
+        "precio": 15000
+    },
+    {
+        "id": 2,
+        "nombre": "Destornillador",
+        "stock": 100,
+        "precio": 5500
+    },
+    {
+        "id": 3,
+        "nombre": "Taladro",
+        "stock": 30,
+        "precio": 75000
+    },
+    {
+        "id": 4,
+        "nombre": "Llave Inglesa",
+        "stock": 40,
+        "precio": 12750
+    },
+    {
+        "id": 5,
+        "nombre": "Cinta Métrica",
+        "stock": 200,
+        "precio": 3990
+    },
+    {
+        "id": 6,
+        "nombre": "Sierra Manual",
+        "stock": 25,
+        "precio": 22500
+    },
+    {
+        "id": 7,
+        "nombre": "Alicates",
+        "stock": 60,
+        "precio": 8350
+    },
+    {
+        "id": 8,
+        "nombre": "Nivel de Burbuja",
+        "stock": 70,
+        "precio": 10450
+    },
+    {
+        "id": 9,
+        "nombre": "Llave Allen",
+        "stock": 150,
+        "precio": 6250
+    },
+    {
+        "id": 10,
+        "nombre": "Serrucho",
+        "stock": 35,
+        "precio": 18990
+    }
+]

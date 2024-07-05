@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Juan Perez",
+        "correo": "juan.perez@example.com",
+        "contrasena": "password123"
+    },
+    {
+        "nombre": "Maria Lopez",
+        "correo": "maria.lopez@example.com",
+        "contrasena": "passw0rd!"
+    },
+    {
+        "nombre": "Carlos Martinez",
+        "correo": "carlos.martinez@example.com",
+        "contrasena": "1234abcd"
+    },
+    {
+        "nombre": "Ana Gonzalez",
+        "correo": "ana.gonzalez@example.com",
+        "contrasena": "myp@ssword"
+    },
+    {
+        "nombre": "Luis Rodriguez",
+        "correo": "luis.rodriguez@example.com",
+        "contrasena": "luispass"
+    }
+]
