@@ -12,7 +12,7 @@
                 <label for="password">Contraseña</label>
                 <input type="password" name="password" id="password" v-model="password" required>
             </div>
-            <button type="submit" class="login-button">Ingresar</button>
+            <button type="submit" class="login-button" >Ingresar</button>
         </form>
         <div v-if="authError" class="error">{{ authError }}</div>
     </div>
@@ -30,7 +30,7 @@ export default {
     },
     computed: {
         //Mapear getter de vuez al componente
-        ...mapGetters(['authError'])
+        ...mapGetters(['authError']),
     },
 
     methods: {
@@ -44,6 +44,7 @@ export default {
         this.$router.push('/products');
       } catch (error) {
         console.error('Error durante el inicio de sesión:', error);
+        // this.$router.push('/login');
       }
     }
     }

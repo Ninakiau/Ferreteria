@@ -77,10 +77,17 @@ export default {
                 alert('Todos los campos son obligatorios');
                 return;
             }
+            let newId;
+            if (this.isEditing) {
+                newId = this.productId;
+            } else {
+                const productos = this.$store.state.productos;
+                newId = productos.length > 0 ? productos[productos.length - 1].id + 1 : 1;
+            }
 
             const productData = {
                 // Si se edita un producto, utiliza el ID del producto, de lo contrario, utiliza el tamaño de la lista de productos + 1
-                id: this.isEditing ? this.productId : this.$store.state.productos.length + 1,
+                id: newId,
                 nombre: this.productName,
                 stock: this.productStock,
                 precio: this.productPrice
@@ -102,7 +109,7 @@ export default {
             this.productPrice = '';
         }
     },
-     // Observador que actualiza los campos del formulario cuando cambia la propiedad 'product'
+    // Observador que actualiza los campos del formulario cuando cambia la propiedad 'product'
     watch: {
         product(newProduct) {
             if (newProduct) {
